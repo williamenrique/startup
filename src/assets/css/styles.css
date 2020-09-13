@@ -185,7 +185,7 @@
   list-style: none;
 }
 
-mobile-nav a {
+.mobile-nav a {
   display: block;
   position: relative;
   color: #37517e;
@@ -254,7 +254,7 @@ mobile-nav a {
 
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background: #37517e;
 }
 
@@ -292,6 +292,16 @@ mobile-nav a {
 
 #hero .btn-get-started:hover {
   background: #209dd8;
+}
+
+#hero .btn-watch-video {
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 0 8px 40px;
+  transition: 0.5s;
+  margin: 10px 0 0 25px;
+  color: #fff;
+  position: relative;
 }
 
 #hero .btn-watch-video i {
@@ -355,6 +365,24 @@ mobile-nav a {
     font-size: 16px;
     padding: 10px 0 8px 40px;
     margin-left: 20px;
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
   }
 }
 
