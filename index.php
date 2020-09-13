@@ -3,6 +3,7 @@
 <!-- End Header -->
 
 <!-- ======= Hero Section ======= -->
+<?php include './src/components/hero.php'?>
 <!-- End Hero -->
 
 <main id="main">
