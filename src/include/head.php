@@ -26,7 +26,7 @@
 	<link href="src/assets/vendor/venobox/venobox.css" rel="stylesheet">
 	<link href="src/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 	<link href="src/assets/vendor/aos/aos.css" rel="stylesheet">
-	<link href="src/assets/css/style.css" rel="stylesheet">
+	<link href="src/assets/css/styles.css" rel="stylesheet">
 
 </head>
 
