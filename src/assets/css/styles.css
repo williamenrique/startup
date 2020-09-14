@@ -133,14 +133,22 @@
 }
 
 @media (max-width: 1366px) {
-  #header .nav-menu .drop-down .drop-down ul {
+  .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
-  #header .nav-menu .drop-down .drop-down:hover > ul {
+  .nav-menu .drop-down .drop-down:hover > ul {
     left: -100%;
   }
-  #header .nav-menu .drop-down .drop-down > a:after {
+  .nav-menu .drop-down .drop-down > a:after {
     content: '\ea9d';
+  }
+}
+
+@media (max-width: 375px) {
+  #header .logo a {
+    display: block;
+    width: 100%;
+    font-size: 16px;
   }
 }
 
