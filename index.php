@@ -30,5 +30,6 @@
 </main><!-- End #main -->
 
 <!-- ======= Footer ======= -->
+<?php include 'src/components/footer.php'?>
 <!-- End Footer -->
 <?php include 'src/include/foot.php'?>
