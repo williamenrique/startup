@@ -1,8 +1,8 @@
 {
-	"remotePath": "./htdocs",
-	"host": "ftp.tonohost.com",
-	"username": "ottos_26728143",
-	"password": "william2105",
+	"remotePath": "./public_html",
+	"host": "workinfo.ibx.lat",
+	"username": "workinfo",
+	"password": "obAr7771aZ",
 	"port": 21,
 	"secure": false,
 	"protocol": "ftp",
