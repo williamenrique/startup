@@ -18,8 +18,8 @@
 	<link href="src/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 	<link href="src/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
 	<link href="src/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+	<link href="src/assets/vendor/venobox/venobox.css" rel="stylesheet">
 	<!--
-		<link href="src/assets/vendor/venobox/venobox.css" rel="stylesheet">
 		<link href="src/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 		<link href="src/assets/vendor/aos/aos.css" rel="stylesheet">
 	-->
