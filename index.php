@@ -2,9 +2,10 @@
 define('BASEPATH', true);
 require 'system/config.system.php';
 require 'system/core/autoload.php';
-require HEAD;
+?>
 
-require FOOTER;
+<?php
+
 error_reporting(ERROR_REPORTING_LEVEL);
 
 $router = new Router();
@@ -25,3 +26,4 @@ $method = 'exec';
 
 $controller = new $controller();
 $controller->$method($param);
+require FOOTER;
