@@ -8,7 +8,7 @@ define('REQUEST_METHOD', $_SERVER['REQUEST_METHOD']);
 //////////////////////////////////////
 // Valores de rutas
 /////////////////////////////////////
-define('FOLDER_PATH', '/startup.ibx.lat');
+define('FOLDER_PATH', '/workinfo.com');
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('PATH_VIEWS', FOLDER_PATH . '/app/views/');
 define('PATH_CONTROLLERS', 'app/controllers/');
