@@ -1,35 +1,27 @@
-<?php include 'src/include/head.php'?>
-<!-- ======= Header ======= -->
-<!-- End Header -->
+<?php
+define('BASEPATH', true);
+require 'system/config.system.php';
+require 'system/core/autoload.php';
+require HEAD;
 
-<!-- ======= Hero Section ======= -->
-<?php include './src/components/hero.php'?>
-<!-- End Hero -->
+require FOOTER;
+error_reporting(ERROR_REPORTING_LEVEL);
 
-<main id="main">
+$router = new Router();
 
-	<!-- ======= Cliens Section ======= -->
-	<!-- End Cliens Section -->
+$controller = $router->getController();
+$method = $router->getMethod();
+$param = $router->getParam();
 
-	<!-- ======= About Us Section ======= -->
-	<!-- End About Us Section -->
+if(!CoreHelper::validateController($controller))
+//si controlador no existe asigna
+$controller = 'ErrorPage';
 
-	<!-- ======= Skills Section ======= -->
-	<!-- End Skills Section -->
+require PATH_CONTROLLERS . "{$controller}/{$controller}Controller.php";
+$controller = $controller . 'Controller';
 
-	<!-- ======= Services Section ======= -->
-	<!-- End Services Section -->
+if(!CoreHelper::validateMethodController($controller, $method))
+$method = 'exec';
 
-
-	<!-- ======= Pricing Section ======= -->
-	<!-- End Pricing Section -->
-
-	<!-- ======= Contact Section ======= -->
-	<!-- End Contact Section -->
-
-</main><!-- End #main -->
-
-<!-- ======= Footer ======= -->
-<?php include 'src/components/footer.php'?>
-<!-- End Footer -->
-<?php include 'src/include/foot.php'?>
+$controller = new $controller();
+$controller->$method($param);

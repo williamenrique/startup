@@ -15,7 +15,7 @@ define('PATH_CONTROLLERS', 'app/controllers/');
 define('PATH_MODEL', FOLDER_PATH. '/app/models/');
 define('HELPER_PATH', 'system/helpers/');
 define('LIBS_ROUTE', ROOT . FOLDER_PATH . '/system/libs/');
-define('INCLUDE_COMP', ROOT . FOLDER_PATH . '/src/include/');
+define('COMPONENTS', ROOT . FOLDER_PATH . '/src/components/');
 define('HEAD', ROOT . FOLDER_PATH . '/src/include/head.php');
 define('FOOTER', ROOT . FOLDER_PATH . '/src/include/footer.php');
 define('CSS', ROOT . FOLDER_PATH . '/src/assets/css/');

@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No se permite acceso directo');
-require ROOT . PATH_MODEL.'home/HomeModel.php';
+require_once ROOT . PATH_MODEL.'home/HomeModel.php';
 
 class HomeController extends Controller {
 	
