@@ -36,4 +36,4 @@ define('DB_NAME', 'mvc');
 //////////////////////////////////////
 // Valores configuracion
 /////////////////////////////////////
-define('ERROR_REPORTING_LEVEL', -1);
+define('ERROR_REPORTING_LEVEL', 0);

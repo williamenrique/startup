@@ -6,7 +6,7 @@ class Router {
 	public $controller;
 	public $method;
 	public $param;
-
+//error corregido en uri[i] la posicion de la uri en la web
 	 public function __construct() {
     $this->setUri();
     $this->setController();
