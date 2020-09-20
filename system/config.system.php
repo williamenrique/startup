@@ -8,7 +8,11 @@ define('REQUEST_METHOD', $_SERVER['REQUEST_METHOD']);
 //////////////////////////////////////
 // Valores de rutas
 /////////////////////////////////////
+<<<<<<< HEAD
 define('FOLDER_PATH', './');
+=======
+define('FOLDER_PATH', '/');
+>>>>>>> pruebaRuta
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('PATH_VIEWS', FOLDER_PATH . '/app/views/');
 define('PATH_CONTROLLERS', 'app/controllers/');

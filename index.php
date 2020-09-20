@@ -19,7 +19,7 @@ require PATH_CONTROLLERS . "{$controller}/{$controller}Controller.php";
 $controller = $controller . 'Controller';
 
 if(!CoreHelper::validateMethodController($controller, $method))
-$method = 'exec';
+$method = 'home';
 
 $controller = new $controller();
 $controller->$method($param);
