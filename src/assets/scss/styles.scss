@@ -116,31 +116,3 @@ h6 {
 		padding: 6px 20px 7px 20px;
 	}
 }
-
-.box-404 {
-	width: 100%;
-	text-align: center;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	h1 {
-		font-family: 'Black Ops One', cursive;
-		font-size: 175px;
-	}
-	p {
-		.link {
-			color: #37517e;
-			text-decoration: none;
-			letter-spacing: 1px;
-		}
-	}
-}
-
-.footer {
-	color: black;
-	position: absolute;
-	right: 10px;
-	bottom: 10px;
-}
