@@ -25,6 +25,7 @@ define('IMG', ROOT . FOLDER_PATH . '/src/assets/img/');
 // Valores de core
 /////////////////////////////////////
 define('CORE', 'system/core/');
+define('AUTOLOAD', 'system/core/autoload.php');
 define('DEFAULT_CONTROLLER', 'Home');
 //////////////////////////////////////
 // Valores de base de datos

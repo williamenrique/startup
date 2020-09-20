@@ -1,7 +1,7 @@
 <?php
 define('BASEPATH', true);
 require 'system/config.system.php';
-require 'system/core/autoload.php';
+require AUTOLOAD;
 error_reporting(ERROR_REPORTING_LEVEL);
 
 $router = new Router();
