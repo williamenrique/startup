@@ -17,16 +17,16 @@ class Router {
     $this->uri = explode('/', URI);
 	}
 	 public function setController() {
-    $this->controller = $this->uri[2] === '' ? 'Home' : $this->uri[2];
+    $this->controller = $this->uri[1] === '' ? 'Home' : $this->uri[1];
 	}
 	public function setMethod() {
-    $this->method = ! empty($this->uri[3]) ? $this->uri[3] : 'exec';
+    $this->method = ! empty($this->uri[2]) ? $this->uri[2] : 'exec';
 	}
 	  public function setParam() {
     // if(REQUEST_METHOD === 'POST')
     //   $this->param = $_POST;
     // else if (REQUEST_METHOD === 'GET')
-      $this->param = ! empty($this->uri[4]) ? $this->uri[4] : '';
+      $this->param = ! empty($this->uri[3]) ? $this->uri[3] : '';
   }
 
   public function getUri() {
