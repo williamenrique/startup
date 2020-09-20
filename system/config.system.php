@@ -8,7 +8,7 @@ define('REQUEST_METHOD', $_SERVER['REQUEST_METHOD']);
 //////////////////////////////////////
 // Valores de rutas
 /////////////////////////////////////
-define('FOLDER_PATH', '/workinfo.com');
+define('FOLDER_PATH', './');
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('PATH_VIEWS', FOLDER_PATH . '/app/views/');
 define('PATH_CONTROLLERS', 'app/controllers/');
@@ -36,4 +36,4 @@ define('DB_NAME', 'mvc');
 //////////////////////////////////////
 // Valores configuracion
 /////////////////////////////////////
-define('ERROR_REPORTING_LEVEL', 0);
+define('ERROR_REPORTING_LEVEL', -1);
